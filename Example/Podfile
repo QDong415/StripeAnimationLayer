@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'StripeAnimationLayer_Example' do
+  pod 'StripeAnimationLayer', :path => '../'
+
+  target 'StripeAnimationLayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
