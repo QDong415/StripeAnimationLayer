@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20571622EA7B91E2278A2E936EB4E9B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		238455AC076599454727CB3A476E2136 /* StripeAnimationLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5BB9F2D2F20F7B26A2C9DBE1F8B90 /* StripeAnimationLayer-dummy.m */; };
+		3DD012C93EB543A6FEC3B28B1F0BD971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4E256AD03B7AD91F7FE9DBED83FD091C /* StripeLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD9BF53E131AFB125057D843CBF6EDE /* StripeLayerOptions.swift */; };
+		4EB6C036150A1856092A23B6706EA6A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		84A733A5F858FAF36C903BFF29B04E3F /* Pods-StripeAnimationLayer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 014FA98C2786A2CD306EFB1210F8DF52 /* Pods-StripeAnimationLayer_Tests-dummy.m */; };
+		93360A5BB57DEA8E1DFC5391ABEDA8A3 /* Pods-StripeAnimationLayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9218822354CAA8443925E73543E23503 /* Pods-StripeAnimationLayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9CAEA8CF88D543402850E2DE176B492 /* Pods-StripeAnimationLayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D817C4A79ECB4DF646452C07C375D3E9 /* Pods-StripeAnimationLayer_Example-dummy.m */; };
+		C697F498056E76AB4C306DCC61FF2496 /* StripeAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B5DC8CE34E9672C2BA4E32A8EEC3AE /* StripeAnimationLayer.swift */; };
+		D5FD2DA46964D6F5ECEB424D6D5F9D5F /* Pods-StripeAnimationLayer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E92F6B1C83C58130535B37F5970374C /* Pods-StripeAnimationLayer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E84FAE3DB0613BE244F43322E78B6D17 /* StripeAnimationLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B672426DA3E984A2202F0F3DA295EA36 /* StripeAnimationLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E17F68F06D62E6D6A2D3368CBDBECA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BE04E6540DE0C144262468EB7FA392;
+			remoteInfo = StripeAnimationLayer;
+		};
+		D27E2D2141F8FEB4B6C795DEBF2AF130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6A77EE9C18E48545C31B1931A9F0E4;
+			remoteInfo = "Pods-StripeAnimationLayer_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014FA98C2786A2CD306EFB1210F8DF52 /* Pods-StripeAnimationLayer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StripeAnimationLayer_Tests-dummy.m"; sourceTree = "<group>"; };
+		02B5DC8CE34E9672C2BA4E32A8EEC3AE /* StripeAnimationLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StripeAnimationLayer.swift; path = StripeAnimationLayer/Classes/StripeAnimationLayer.swift; sourceTree = "<group>"; };
+		1DE15A08BAFA1869C802936C104B845C /* Pods-StripeAnimationLayer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StripeAnimationLayer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E717EAF079979020E1349FC25B668C0 /* StripeAnimationLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StripeAnimationLayer-prefix.pch"; sourceTree = "<group>"; };
+		327BF1784E34351CA611A1B30E9190D1 /* StripeAnimationLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StripeAnimationLayer.framework; path = StripeAnimationLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADC8F60FBC6F438DAE33F2BD0BBECC9 /* Pods-StripeAnimationLayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StripeAnimationLayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E92F6B1C83C58130535B37F5970374C /* Pods-StripeAnimationLayer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StripeAnimationLayer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4B4DC7B3B9B5A54F5697D62B42ECA09D /* Pods_StripeAnimationLayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StripeAnimationLayer_Tests.framework; path = "Pods-StripeAnimationLayer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5163078F822031F89C30400B7249DD42 /* StripeAnimationLayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StripeAnimationLayer.release.xcconfig; sourceTree = "<group>"; };
+		6CE5BB9F2D2F20F7B26A2C9DBE1F8B90 /* StripeAnimationLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StripeAnimationLayer-dummy.m"; sourceTree = "<group>"; };
+		72AE2172F3C72D2EABF1848D0F4CB6F2 /* Pods-StripeAnimationLayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StripeAnimationLayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73AEA7B8B4467A49FB7726013DE3E8D5 /* Pods-StripeAnimationLayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StripeAnimationLayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		744070A755EC533ABBBCF4A9E51693B0 /* Pods-StripeAnimationLayer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StripeAnimationLayer_Tests.modulemap"; sourceTree = "<group>"; };
+		795E75DBEE3A8A548CD28CA36F6A966B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87BE4D098E736D3EAC3B7C7A66112F0B /* Pods-StripeAnimationLayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StripeAnimationLayer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		920CE53D6B3EF41343BD9902E4583CDD /* Pods-StripeAnimationLayer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StripeAnimationLayer_Tests-Info.plist"; sourceTree = "<group>"; };
+		9218822354CAA8443925E73543E23503 /* Pods-StripeAnimationLayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StripeAnimationLayer_Example-umbrella.h"; sourceTree = "<group>"; };
+		9480FC268AE156FB3802BE4E7B6D913B /* Pods_StripeAnimationLayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StripeAnimationLayer_Example.framework; path = "Pods-StripeAnimationLayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC6C5FA9F83EB29C3CB650D0509D4C1 /* Pods-StripeAnimationLayer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StripeAnimationLayer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3762D591211F3984161AB04545454EB /* Pods-StripeAnimationLayer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StripeAnimationLayer_Example-Info.plist"; sourceTree = "<group>"; };
+		AB247476FA3010824D8A845A5955571C /* StripeAnimationLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StripeAnimationLayer.modulemap; sourceTree = "<group>"; };
+		AB5AFB1888962B431DB0D850D962249E /* Pods-StripeAnimationLayer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StripeAnimationLayer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACCDC8E9A2BD5A2EB2DF179BED990BCC /* Pods-StripeAnimationLayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StripeAnimationLayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ADD9BF53E131AFB125057D843CBF6EDE /* StripeLayerOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StripeLayerOptions.swift; path = StripeAnimationLayer/Classes/StripeLayerOptions.swift; sourceTree = "<group>"; };
+		B635D4BA21E65ED80667E958099406D9 /* StripeAnimationLayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = StripeAnimationLayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B672426DA3E984A2202F0F3DA295EA36 /* StripeAnimationLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StripeAnimationLayer-umbrella.h"; sourceTree = "<group>"; };
+		CBD60FD4628CE4666CC1FC6BD15C340C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D817C4A79ECB4DF646452C07C375D3E9 /* Pods-StripeAnimationLayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StripeAnimationLayer_Example-dummy.m"; sourceTree = "<group>"; };
+		D8FB226BF3CD3EC16E09AE5AD7A026FA /* Pods-StripeAnimationLayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StripeAnimationLayer_Example.modulemap"; sourceTree = "<group>"; };
+		E69C04615259E5D7600EBCFD14DCDC42 /* StripeAnimationLayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StripeAnimationLayer-Info.plist"; sourceTree = "<group>"; };
+		E768B90F9BDC873C4931996BE77A24E3 /* StripeAnimationLayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StripeAnimationLayer.debug.xcconfig; sourceTree = "<group>"; };
+		EF7A43D865D433600A32E95E4CD732BF /* Pods-StripeAnimationLayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StripeAnimationLayer_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		216542B7EF115EA24437538E73987E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD012C93EB543A6FEC3B28B1F0BD971 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE4347D38328F8F27EF063456C0615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB6C036150A1856092A23B6706EA6A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D996C0817D707A92E6796906574EC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20571622EA7B91E2278A2E936EB4E9B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13CA99A3354EABD78F04453E7C05E03B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A37E73CA13BBA2FEB05F761919AC4464 /* StripeAnimationLayer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		49A3A2D3667A187EA34C0CF9F859E241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9480FC268AE156FB3802BE4E7B6D913B /* Pods_StripeAnimationLayer_Example.framework */,
+				4B4DC7B3B9B5A54F5697D62B42ECA09D /* Pods_StripeAnimationLayer_Tests.framework */,
+				327BF1784E34351CA611A1B30E9190D1 /* StripeAnimationLayer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49CA414E7037F25A4EBED292E2E0DCAE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CBD60FD4628CE4666CC1FC6BD15C340C /* LICENSE */,
+				795E75DBEE3A8A548CD28CA36F6A966B /* README.md */,
+				B635D4BA21E65ED80667E958099406D9 /* StripeAnimationLayer.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4DE60EB37737DEF83F2F770F21275B1D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85374A5ACC64A8500C1419431F2F0F5 /* Pods-StripeAnimationLayer_Example */,
+				A62B6F7A16774BF209479FB0DA652EEB /* Pods-StripeAnimationLayer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		583DA2D3F7230EE77BD0942CB85F2ECF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB247476FA3010824D8A845A5955571C /* StripeAnimationLayer.modulemap */,
+				6CE5BB9F2D2F20F7B26A2C9DBE1F8B90 /* StripeAnimationLayer-dummy.m */,
+				E69C04615259E5D7600EBCFD14DCDC42 /* StripeAnimationLayer-Info.plist */,
+				2E717EAF079979020E1349FC25B668C0 /* StripeAnimationLayer-prefix.pch */,
+				B672426DA3E984A2202F0F3DA295EA36 /* StripeAnimationLayer-umbrella.h */,
+				E768B90F9BDC873C4931996BE77A24E3 /* StripeAnimationLayer.debug.xcconfig */,
+				5163078F822031F89C30400B7249DD42 /* StripeAnimationLayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/StripeAnimationLayer";
+			sourceTree = "<group>";
+		};
+		A37E73CA13BBA2FEB05F761919AC4464 /* StripeAnimationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				02B5DC8CE34E9672C2BA4E32A8EEC3AE /* StripeAnimationLayer.swift */,
+				ADD9BF53E131AFB125057D843CBF6EDE /* StripeLayerOptions.swift */,
+				49CA414E7037F25A4EBED292E2E0DCAE /* Pod */,
+				583DA2D3F7230EE77BD0942CB85F2ECF /* Support Files */,
+			);
+			name = StripeAnimationLayer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A62B6F7A16774BF209479FB0DA652EEB /* Pods-StripeAnimationLayer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				744070A755EC533ABBBCF4A9E51693B0 /* Pods-StripeAnimationLayer_Tests.modulemap */,
+				AB5AFB1888962B431DB0D850D962249E /* Pods-StripeAnimationLayer_Tests-acknowledgements.markdown */,
+				9EC6C5FA9F83EB29C3CB650D0509D4C1 /* Pods-StripeAnimationLayer_Tests-acknowledgements.plist */,
+				014FA98C2786A2CD306EFB1210F8DF52 /* Pods-StripeAnimationLayer_Tests-dummy.m */,
+				920CE53D6B3EF41343BD9902E4583CDD /* Pods-StripeAnimationLayer_Tests-Info.plist */,
+				3E92F6B1C83C58130535B37F5970374C /* Pods-StripeAnimationLayer_Tests-umbrella.h */,
+				73AEA7B8B4467A49FB7726013DE3E8D5 /* Pods-StripeAnimationLayer_Tests.debug.xcconfig */,
+				72AE2172F3C72D2EABF1848D0F4CB6F2 /* Pods-StripeAnimationLayer_Tests.release.xcconfig */,
+			);
+			name = "Pods-StripeAnimationLayer_Tests";
+			path = "Target Support Files/Pods-StripeAnimationLayer_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				13CA99A3354EABD78F04453E7C05E03B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				49A3A2D3667A187EA34C0CF9F859E241 /* Products */,
+				4DE60EB37737DEF83F2F770F21275B1D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F85374A5ACC64A8500C1419431F2F0F5 /* Pods-StripeAnimationLayer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D8FB226BF3CD3EC16E09AE5AD7A026FA /* Pods-StripeAnimationLayer_Example.modulemap */,
+				1DE15A08BAFA1869C802936C104B845C /* Pods-StripeAnimationLayer_Example-acknowledgements.markdown */,
+				3ADC8F60FBC6F438DAE33F2BD0BBECC9 /* Pods-StripeAnimationLayer_Example-acknowledgements.plist */,
+				D817C4A79ECB4DF646452C07C375D3E9 /* Pods-StripeAnimationLayer_Example-dummy.m */,
+				87BE4D098E736D3EAC3B7C7A66112F0B /* Pods-StripeAnimationLayer_Example-frameworks.sh */,
+				A3762D591211F3984161AB04545454EB /* Pods-StripeAnimationLayer_Example-Info.plist */,
+				9218822354CAA8443925E73543E23503 /* Pods-StripeAnimationLayer_Example-umbrella.h */,
+				ACCDC8E9A2BD5A2EB2DF179BED990BCC /* Pods-StripeAnimationLayer_Example.debug.xcconfig */,
+				EF7A43D865D433600A32E95E4CD732BF /* Pods-StripeAnimationLayer_Example.release.xcconfig */,
+			);
+			name = "Pods-StripeAnimationLayer_Example";
+			path = "Target Support Files/Pods-StripeAnimationLayer_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05911917AA5D28C00892F37E02CA27ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FD2DA46964D6F5ECEB424D6D5F9D5F /* Pods-StripeAnimationLayer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8A973134C475A8ABD5F7F050EE31ECA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93360A5BB57DEA8E1DFC5391ABEDA8A3 /* Pods-StripeAnimationLayer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F063ABED4155C2989286C373C8DFD1A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84FAE3DB0613BE244F43322E78B6D17 /* StripeAnimationLayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04BE04E6540DE0C144262468EB7FA392 /* StripeAnimationLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE69C53B91E9A0EDB3F628D6DC9FBA9A /* Build configuration list for PBXNativeTarget "StripeAnimationLayer" */;
+			buildPhases = (
+				F063ABED4155C2989286C373C8DFD1A1 /* Headers */,
+				00763D1AE0B9DB0F51BD3371E2FA2803 /* Sources */,
+				8FE4347D38328F8F27EF063456C0615C /* Frameworks */,
+				26BD50BAF988BBD42CC5A008D5FC7E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StripeAnimationLayer;
+			productName = StripeAnimationLayer;
+			productReference = 327BF1784E34351CA611A1B30E9190D1 /* StripeAnimationLayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B6A77EE9C18E48545C31B1931A9F0E4 /* Pods-StripeAnimationLayer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6451B2071A5CDF5B0A3B316714883A /* Build configuration list for PBXNativeTarget "Pods-StripeAnimationLayer_Example" */;
+			buildPhases = (
+				A8A973134C475A8ABD5F7F050EE31ECA /* Headers */,
+				5FC49FFC30DBA39C675FA4AFE99CEC54 /* Sources */,
+				E0D996C0817D707A92E6796906574EC4 /* Frameworks */,
+				ACB8D315B820B095CBC23A22139F2579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49448BD98C3536348FEBC38EF9EB1F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-StripeAnimationLayer_Example";
+			productName = "Pods-StripeAnimationLayer_Example";
+			productReference = 9480FC268AE156FB3802BE4E7B6D913B /* Pods_StripeAnimationLayer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D195407B62F1646F66D0E0EB2B692A0D /* Pods-StripeAnimationLayer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AD0451BB04733619DB94D5F5D5AA7C /* Build configuration list for PBXNativeTarget "Pods-StripeAnimationLayer_Tests" */;
+			buildPhases = (
+				05911917AA5D28C00892F37E02CA27ED /* Headers */,
+				01959A30B1E7D295D9E2B6B9A926E4A7 /* Sources */,
+				216542B7EF115EA24437538E73987E17 /* Frameworks */,
+				B6AB6D5A177E1E93C994C14B97C46F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF997E90A99870182C34782FBE4E413 /* PBXTargetDependency */,
+			);
+			name = "Pods-StripeAnimationLayer_Tests";
+			productName = "Pods-StripeAnimationLayer_Tests";
+			productReference = 4B4DC7B3B9B5A54F5697D62B42ECA09D /* Pods_StripeAnimationLayer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 49A3A2D3667A187EA34C0CF9F859E241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6A77EE9C18E48545C31B1931A9F0E4 /* Pods-StripeAnimationLayer_Example */,
+				D195407B62F1646F66D0E0EB2B692A0D /* Pods-StripeAnimationLayer_Tests */,
+				04BE04E6540DE0C144262468EB7FA392 /* StripeAnimationLayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26BD50BAF988BBD42CC5A008D5FC7E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB8D315B820B095CBC23A22139F2579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6AB6D5A177E1E93C994C14B97C46F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00763D1AE0B9DB0F51BD3371E2FA2803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238455AC076599454727CB3A476E2136 /* StripeAnimationLayer-dummy.m in Sources */,
+				C697F498056E76AB4C306DCC61FF2496 /* StripeAnimationLayer.swift in Sources */,
+				4E256AD03B7AD91F7FE9DBED83FD091C /* StripeLayerOptions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01959A30B1E7D295D9E2B6B9A926E4A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A733A5F858FAF36C903BFF29B04E3F /* Pods-StripeAnimationLayer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC49FFC30DBA39C675FA4AFE99CEC54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CAEA8CF88D543402850E2DE176B492 /* Pods-StripeAnimationLayer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CF997E90A99870182C34782FBE4E413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-StripeAnimationLayer_Example";
+			target = 9B6A77EE9C18E48545C31B1931A9F0E4 /* Pods-StripeAnimationLayer_Example */;
+			targetProxy = D27E2D2141F8FEB4B6C795DEBF2AF130 /* PBXContainerItemProxy */;
+		};
+		B49448BD98C3536348FEBC38EF9EB1F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StripeAnimationLayer;
+			target = 04BE04E6540DE0C144262468EB7FA392 /* StripeAnimationLayer */;
+			targetProxy = 2E17F68F06D62E6D6A2D3368CBDBECA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BE215B9631FB4D40B926EB05B72C717 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E768B90F9BDC873C4931996BE77A24E3 /* StripeAnimationLayer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StripeAnimationLayer/StripeAnimationLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StripeAnimationLayer/StripeAnimationLayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StripeAnimationLayer/StripeAnimationLayer.modulemap";
+				PRODUCT_MODULE_NAME = StripeAnimationLayer;
+				PRODUCT_NAME = StripeAnimationLayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3719E01C629143B1B2910F9F1A0D48AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF7A43D865D433600A32E95E4CD732BF /* Pods-StripeAnimationLayer_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StripeAnimationLayer_Example/Pods-StripeAnimationLayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StripeAnimationLayer_Example/Pods-StripeAnimationLayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		523ECBF7FE5DDA27EE78A5D22E8BA572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACCDC8E9A2BD5A2EB2DF179BED990BCC /* Pods-StripeAnimationLayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StripeAnimationLayer_Example/Pods-StripeAnimationLayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StripeAnimationLayer_Example/Pods-StripeAnimationLayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		52FC6991CA922B0BBF205BEAD44A26B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AEA7B8B4467A49FB7726013DE3E8D5 /* Pods-StripeAnimationLayer_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StripeAnimationLayer_Tests/Pods-StripeAnimationLayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StripeAnimationLayer_Tests/Pods-StripeAnimationLayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2A9D07E62E21423922BDFD41E6EB4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5163078F822031F89C30400B7249DD42 /* StripeAnimationLayer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StripeAnimationLayer/StripeAnimationLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StripeAnimationLayer/StripeAnimationLayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/StripeAnimationLayer/StripeAnimationLayer.modulemap";
+				PRODUCT_MODULE_NAME = StripeAnimationLayer;
+				PRODUCT_NAME = StripeAnimationLayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9F5801077221D43477CFAEC0CE00AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72AE2172F3C72D2EABF1848D0F4CB6F2 /* Pods-StripeAnimationLayer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StripeAnimationLayer_Tests/Pods-StripeAnimationLayer_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StripeAnimationLayer_Tests/Pods-StripeAnimationLayer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA6451B2071A5CDF5B0A3B316714883A /* Build configuration list for PBXNativeTarget "Pods-StripeAnimationLayer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523ECBF7FE5DDA27EE78A5D22E8BA572 /* Debug */,
+				3719E01C629143B1B2910F9F1A0D48AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AD0451BB04733619DB94D5F5D5AA7C /* Build configuration list for PBXNativeTarget "Pods-StripeAnimationLayer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FC6991CA922B0BBF205BEAD44A26B8 /* Debug */,
+				C9F5801077221D43477CFAEC0CE00AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE69C53B91E9A0EDB3F628D6DC9FBA9A /* Build configuration list for PBXNativeTarget "StripeAnimationLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE215B9631FB4D40B926EB05B72C717 /* Debug */,
+				C2A9D07E62E21423922BDFD41E6EB4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

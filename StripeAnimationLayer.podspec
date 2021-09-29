@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StripeAnimationLayer'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of StripeAnimationLayer.'
+  s.version          = '1.0.0'
+  s.summary          = 'A stripeLoading View, useful in videoLoading,livingLoading.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Loading Animation Stripe CALayer, enable to custom speed,direction,gapWidth. Base on CAReplicatorLayer ,very lightful
                        DESC
 
-  s.homepage         = 'https://github.com/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/StripeAnimationLayer'
+  s.homepage         = 'https://github.com/QDong415/StripeAnimationLayer'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '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' => '285275534@qq.com' }
-  s.source           = { :git => 'https://github.com/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/StripeAnimationLayer.git', :tag => s.version.to_s }
+  s.author           = { 'QDong415' => '285275534@qq.com' }
+  s.source           = { :git => 'https://github.com/QDong415/StripeAnimationLayer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

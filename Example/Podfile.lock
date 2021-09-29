@@ -1,0 +1,16 @@
+PODS:
+  - StripeAnimationLayer (1.0.0)
+
+DEPENDENCIES:
+  - StripeAnimationLayer (from `../`)
+
+EXTERNAL SOURCES:
+  StripeAnimationLayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  StripeAnimationLayer: 0e9a5abb3aaa45ed143486e34833825eb54223bb
+
+PODFILE CHECKSUM: 4a249f67c0acd239658ca2092a9ccb9656bfe9f4
+
+COCOAPODS: 1.10.0
