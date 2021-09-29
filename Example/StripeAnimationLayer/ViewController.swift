@@ -51,8 +51,31 @@ class ViewController: UIViewController {
         let animationLayer3 = StripeAnimationLayer(CGRect.init(x: 0, y: 0, width: self.view.frame.size.width, height: 46), options: option3)
         whiteBgView3.layer.addSublayer(animationLayer3);
         
+        
+        //第4个案例, 斜着的
+        let whiteBgView4 = UIView(frame: CGRect(x: 0, y: whiteBgView3.frame.maxY, width: self.view.frame.size.width, height: 500))
+        whiteBgView4.backgroundColor = UIColor.white
+        self.view.addSubview(whiteBgView4)
+
+        // y值请一定设置为0；如果无需倾斜效果，那么width传入正常宽度即可
+        let animationLayer4 = StripeAnimationLayer(CGRect.init(x: 0, y: 0, width: self.view.frame.size.width * 2, height: 130), options: StripeLayerOptions())
+        whiteBgView4.layer.addSublayer(animationLayer4);
     }
 
+    //hide 隐藏
+    @objc func removeLayer(){
+        guard let sublayers = self.view.layer.sublayers else {
+            return
+        }
+        for layer in sublayers {
+            if layer is StripeAnimationLayer {
+                layer.removeAllAnimations()
+                layer.removeFromSuperlayer()
+                break
+            }
+        }
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
