@@ -9,11 +9,11 @@
 
 Loading Animation Stripe CALayer, enable to custom speed,direction,gapWidth. Base on CAReplicatorLayer ,very lightful
 
-仿快手直播界面加载中，顶部的滚动条状Loading，适用于 视频加载动画，直播界面加载动画。基于CAReplicatorLayer实现，占用内存极小，非常轻量级
+仿快手直播界面加载中，`滚动条纹Loading`，适用于 视频加载动画，直播界面加载动画。基于CAReplicatorLayer实现，占用内存极小，非常轻量级
 
 ## Screenshot 预览图
 
-![](http://qiniu.itopic.com.cn/stripe1.gif)
+![](https://upload-images.jianshu.io/upload_images/26002059-b17dc9ac39fc2617.gif?imageMogr2/auto-orient/strip|imageView2/2/w/270/format/webp)
 
 ## Installation 安装
 
